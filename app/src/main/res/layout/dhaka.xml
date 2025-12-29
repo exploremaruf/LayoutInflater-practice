@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dhaka"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -20,22 +21,22 @@
                 android:src="@drawable/dhaka" />
 
             <TextView
-                android:textColor="#FF5722"
-                android:padding="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+                android:padding="10dp"
                 android:text="Dhaka is the capital and largest city of Bangladesh. With its colorful history and rich cultural traditions, Dhaka is known the world over as the city of mosques and muslin. Its fame attracted travelers from far and near throughout the ages. Today it has grown into a mega city of about 8.5 million people, with an area of about 1353 sq. km. becoming the hub of the nation's industrial, commercial, cultural, educational and political activities.\n\nDhaka is located in the geographic center of the country. It is in the great deltaic region of the Ganges and Brahmaputra rivers. The city is within the monsoon climate zone, with an annual average temperature of 25 deg C (77 deg F) and monthly means varying between 18 deg C (64 deg F) in January and 29 deg C (84 deg F) in August. Nearly 80% of the annual average rainfall of 1,854 mm (73 in) occurs between May and September.\n\nDhaka is located in one of the world's leading rice and jute or natural rawjute growing regions. Its include jute textile industries, muslin and cotton industries and also food processing, especially rice milling. A variety of other consumer goods are also manufactured here. The Muslim influence is reflected in the more than 700 mosques and historic buildings found throughout the city. The University of Dhaka (1921) and several technical schools and museums are located here.\nGENERAL INFORMATION : Area : 815.85 Sq. kilometres (approx.) Population : Seven million (approx.) Climate : Tropical, with heavy rainfall and bright sunshine in the monsoon and warm for the greater part of the year. The winter months, from November to March, are however, most likeable, cool and pleasant.\n\nTemperature: Max. Min\nsummer 36.7Â°C 21.1Â°c\nWinter 31.7Â°C 10.5Â°c\n\nRainfall : 2540 mm annually. Humidity : 80 percent (approx.)\n\nAttractions of Dhaka\n\nMosques : Dhaka has several hundred mosques. Prominent are Baitull Mukarram-National Mosque, the seven Domed Mosque (17th century), Star Mosque (18th century) , Chawkbazar Mosque and Huseni Dalan Mosque.\n\nNational Memorial : It locates at Savar, 35, km. from Dhaka city. The memorial designed by architect Moinul Hossain is dedicated to the sacred memory of the millions of unknown martyrs of the war of liberation.\n\nLalbagh Fort : It was built in 1678 A.D. by Prince Mohammad Azam, son of Mughal emperor Aurangazeb. The fort was the scene of bloody battle during the first war of independence (1857) when 260 sepoys stationed here backed by the people revolted against British forces. Outstanding among the monuments of the Lalbagh are the tomb of Pari Bibi , Lalbagh Mosque, Audience Hall and Hammam of Nawab Shaista Khan now housing a museum.\n\n1857 Memorial : ( Bahadur Shah Park) Built to commemorate the martyrs of the first liberation war (1857-59) against British rule. It was here that the revolting sepoys and their civil compatriots were publicly hanged.\n\nMukti Juddha Museum : Situated at Segun Bagicha area of the city the museum contains rare photographs of Liberation war and items used by the freedom fighters during the period.\n\nAhsan Manzil Museum : On the bank of the river Buriganga in Dhaka the pink majestic Ahsan Manzil has been renovated and turned into a museum recently. It is an example of the nations rich cultural heritage. It was the home of the Nawab of Dhaka and a silent spectator to many events. The renovated Ahsan Manzil is a monument of immense historical beauty. It has 31 rooms with a huge dome atop which can be seen from miles around. It now has 23 galleries displaying portraits, furniture and household articles and utensils used by the Nawab.\n\nCurzon Hall : Beautiful architectural building named after Lord Curzon. It now houses the Science Faculty of Dhaka University.\n\nOld High Court Building : Originally built as the residence of the British Governor, it illustrates a happy blend of European and Mughal architecture.\n\nDhaka Zoo : Popularly known as Mirpur Zoo. Colorful and attractive collections of different local and foreign species of animals and birds including the majestic Royal Bengal Tiger are available here.
 \n\nNational Museum : Located at the central point of the city, the museum contains a large number of interesting collections including sculptures and paintings of the Hindu, Buddhist and Muslim periods.
 \n\nBotanical Garden : Built on an area of 205 acres of land at Mirpur and adjacent to Dhaka Zoo. One can have a look at the zoo and the botanical garden in one trip.
-" />
+"
+                android:textColor="#FF5722" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:background="#8BC34A"
-                android:text="Done"/>
+                android:text="Done" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

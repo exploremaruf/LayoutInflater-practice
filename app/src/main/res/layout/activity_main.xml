@@ -13,8 +13,8 @@
         android:id="@+id/inflatepoint"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@+id/buttonline"
-        >
+        android:layout_above="@+id/buttonline">
+
         <com.airbnb.lottie.LottieAnimationView
             android:id="@+id/lottieAnimationView"
             android:layout_width="300dp"
@@ -28,11 +28,7 @@
             app:lottie_loop="true"
             app:lottie_rawRes="@raw/loading"
             app:lottie_renderMode="software" />
-
-
     </RelativeLayout>
-
-
 
     <LinearLayout
         android:id="@+id/buttonline"
@@ -44,18 +40,20 @@
         android:padding="30dp">
 
         <Button
+            android:id="@+id/btnbangladesh"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/red_button"
             android:text="about bangladesh"
-            android:textColor="#ffffff"/>
+            android:textColor="#ffffff" />
 
         <Button
+            android:id="@+id/btndhaka"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="about dhaka"
-            android:background="@drawable/red_button"
             android:layout_marginTop="5dp"
-            android:textColor="#ffffff"/>
+            android:background="@drawable/red_button"
+            android:text="about dhaka"
+            android:textColor="#ffffff" />
     </LinearLayout>
 </RelativeLayout>

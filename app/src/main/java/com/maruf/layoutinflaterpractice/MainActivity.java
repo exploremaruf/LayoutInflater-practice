@@ -1,14 +1,26 @@
 package com.maruf.layoutinflaterpractice;
 
+import android.content.Context;
 import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.widget.Button;
+import android.widget.RelativeLayout;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
+import androidx.core.view.LayoutInflaterCompat;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
+
+    RelativeLayout main, inflatepoint;
+
+    Button bangladesh, dhaka;
+
+    LayoutInflater layoutInflater;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +33,23 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        //*******************************************************************************************************
+        //********************************************************************************************************
+        bangladesh = findViewById(R.id.btnbangladesh);
+        dhaka = findViewById(R.id.btndhaka);
+        inflatepoint = findViewById(R.id.inflatepoint);
+        layoutInflater = (LayoutInflater) getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+
+        bangladesh.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+
+                inflatepoint.removeAllViews();
+                layoutInflater.inflate(R.layout.bangladesh, inflatepoint);
+            }
+        });
+
     }
 
 }
