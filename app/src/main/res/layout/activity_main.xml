@@ -9,19 +9,30 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <com.airbnb.lottie.LottieAnimationView
-        android:id="@+id/lottieAnimationView"
-        android:layout_width="300dp"
-        android:layout_height="300dp"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:layout_gravity="center"
-        android:elevation="50dp"
-        android:scaleType="fitCenter"
-        app:lottie_autoPlay="true"
-        app:lottie_loop="true"
-        app:lottie_rawRes="@raw/loading"
-        app:lottie_renderMode="software" />
+    <RelativeLayout
+        android:id="@+id/inflatepoint"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/buttonline"
+        >
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottieAnimationView"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:elevation="50dp"
+            android:scaleType="fitCenter"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/loading"
+            app:lottie_renderMode="software" />
+
+
+    </RelativeLayout>
+
+
 
     <LinearLayout
         android:id="@+id/buttonline"
