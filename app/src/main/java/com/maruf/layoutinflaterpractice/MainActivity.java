@@ -50,6 +50,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        dhaka.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+
+                inflatepoint.removeAllViews();
+                layoutInflater.inflate(R.layout.dhaka, inflatepoint);
+            }
+        });
+
     }
 
 }
